@@ -15,7 +15,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 
 //=================================================//
-global.SESSION_ID = process.env.SESSION_ID || '' 
+global.SESSION_ID = process.env.SESSION_ID || 'XPLOADER-BOT:~7rYBTYLS#vPTt9H8mW7qHvKQ5iATBlz5eITRJjmHmrgtz2ZbkqvQ' 
 //Enter your Xploader session id here; must start with XPLOADER-BOT:~
 
 //=================================================//
@@ -23,7 +23,7 @@ global.botname = process.env.BOT_NAME || '᙭ᑭᒪOᗩᗪᗴᖇ ᗷOT'
 //Your desired bot name
 
 //=================================================//
-global.ownernumber = process.env.OWNER_NUMBER || '254754783972' 
+global.ownernumber = process.env.OWNER_NUMBER || '256751617788' 
 //Type your main number here
 
 //=================================================//
@@ -32,7 +32,7 @@ global.sudo = process.env.SUDO ? process.env.SUDO.split(',') : ['254796180105', 
 //NB: They'll be able to use every functions of the bot without restrictions.
 
 //=================================================//
-global.ownername = process.env.OWNER_NAME || 'Tylor' 
+global.ownername = process.env.OWNER_NAME || '> ZIK TECH DEV' 
 //Type your name here
 
 //=================================================//
@@ -54,11 +54,11 @@ global.prefixz = process.env.PREFIX || '.'
 //Set your desired prefix
 
 //=================================================//
-global.mode = process.env.MODE || 'public';
+global.mode = process.env.MODE || 'private';
 // Set to 'private' to enable private mode, otherwise default is 'public'
 
 //=================================================//
-global.statusemoji = process.env.STATUS_EMOJI || '🧡'
+global.statusemoji = process.env.STATUS_EMOJI || '▪️'
 //Enter the emoji that you wish to be reacted to statuses 
 
 //=================================================//
@@ -66,7 +66,7 @@ global.autoviewstatus = process.env.AUTO_STATUS_VIEW || 'true'
 // set true to enable and false to disable auto status view
 
 //=================================================//
-global.autoreactstatus = process.env.AUTO_STATUS_REACT || 'false'
+global.autoreactstatus = process.env.AUTO_STATUS_REACT || 'true'
 // set true to enable and false to disable auto status react
 
 //=================================================//
